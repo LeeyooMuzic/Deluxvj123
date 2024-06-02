@@ -1,5 +1,5 @@
 {
-    "name": "VJ-FILTER-BOT",
+    "name": "DELUXVJ-FILTER-BOT",
     "description": "This is auto filter bot with many advanced features.",
     "stack": "container",
     "keywords": [
@@ -20,30 +20,37 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
+            "value": "7141074724:AAE6aP1AORrS8om5j1xdTYzExZlW9VkVz3w"
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "22368569"
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "11efb42a66b1d13a1ab46a3e24c3abb1"
             "required": true
         },
         "CHANNELS": {
             "description": "ID of file channel. Separate multiple IDs by space.",
+            "value": "-1002071207693"
             "required": true
         },
         "ADMINS": {
             "description": "ID of Admin. Separate multiple Admins id by space.",
+            "value": "6319746147"
             "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures.",
+            "value": "hhhhj"
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "-1002026040560"
             "required": true
         },
         "AUTH_USERS": {
@@ -52,6 +59,7 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "value": "-1002071207693"
             "required": false
         },
         "DATABASE_URI": {
@@ -60,6 +68,7 @@
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "Mongodb"
             "required": false
         },
         "COLLECTION_NAME": {
