@@ -709,7 +709,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 ✏️ <b><u>HOW TO RENAME A FILE</u></b>
 
-•> /rename - send any file and click rename option and type new file name and \nthen select [ document, video, audio ]👈 choice this.
+•> /rename - send any file and click rename option and type new file name and \nthen select [ document, video, audio ]👈 choice this. @GrootMovieMax
 """
 
     STREAM_TXT = """<b><u>HOW TO GET STREAM AND DOWNLOAD LINK :</u>
