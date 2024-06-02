@@ -36,7 +36,6 @@
         },
         "ADMINS": {
             "description": "ID of Admin. Separate multiple Admins id by space.",
-            "value": "6319746147"
             "required": true
         },
         "PICS": {
@@ -45,7 +44,6 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "value": "-1002026040560"
             "required": true
         },
         "AUTH_USERS": {
