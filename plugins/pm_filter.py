@@ -2382,7 +2382,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "share":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/GrootMovieMax")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2398,7 +2398,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "song":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/GrootMovieMax")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2568,7 +2568,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "kannada_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/GrootMovieMax")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
