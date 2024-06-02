@@ -32,7 +32,6 @@
         },
         "CHANNELS": {
             "description": "ID of file channel. Separate multiple IDs by space.",
-            "value": "-1002071207693"
             "required": true
         },
         "ADMINS": {
@@ -42,7 +41,6 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures.",
-            "value": "https://graph.org/file/87dd4c4edf9811ef3423a.jpg"
             "required": false
         },
         "LOG_CHANNEL": {
@@ -56,7 +54,6 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "-1002071207693"
             "required": false
         },
         "DATABASE_URI": {
@@ -65,7 +62,6 @@
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-            "value": "Mongodb"
             "required": false
         },
         "COLLECTION_NAME": {
