@@ -24,12 +24,10 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "22368569"
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "11efb42a66b1d13a1ab46a3e24c3abb1"
             "required": true
         },
         "CHANNELS": {
