@@ -392,7 +392,7 @@ async def start(client, message):
                 ]
             )
         )
-        await asyncio.sleep(300)
+        await asyncio.sleep(180)
         await k.edit("<b>Your message is successfully deleted!!!</b>")
         return
         
