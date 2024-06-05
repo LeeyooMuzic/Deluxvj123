@@ -48,8 +48,8 @@ reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002071207693')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL''')).split()]
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002206792489').split()]
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
@@ -70,7 +70,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Hhffhhpyo') # owner username wit
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/GrootMovieMax')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/GrootMovieMax')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/GrootMovieMax')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'GrootMovieMax') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', False))
