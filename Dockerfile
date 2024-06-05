@@ -10,7 +10,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /Deluxvj
-WORKDIR /Deluxvj
-COPY . /Deluxvj
+RUN mkdir /Deluxvj123
+WORKDIR /Deluxvj123
+COPY . /Deluxvj123
 CMD ["python", "bot.py"]
